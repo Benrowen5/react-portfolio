@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
-function Nav () {
+function Nav (props) {
+    const pages = ['Home', 'About', 'Projects', 'Contact', 'Resume'];
     return (
         <header className="header">
             <div>
@@ -12,15 +13,18 @@ function Nav () {
             </div>
             <nav>
                 <ul className="nav nav-tabs justify-content-center">
-                    <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="#">About</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">Projects</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">Contact</a>
-                    </li>
+                   {pages.map(page => (
+                        <li className="nav-item" key={page}>
+                            <a 
+                                href={'#' + page.toLowerCase()}
+                                // Set current page is set via the setCurrentPage prop
+                                onClick={() => props.setCurrentPage(page)}
+                                className={props.currentPage === page ? 'nav-link active' : 'nav-link'}
+                            >
+                            {page}
+                            </a>
+                        </li>
+                   ))}
                 </ul>
             </nav>
         </header>
