@@ -9,7 +9,7 @@ import Resume from './components/pages/Resume';
 
 function App() { 
       // Default state is About page
-      const [currentPage, setCurrentPage] = useState('Home');
+      const [currentPage, setCurrentPage] = useState('About');
 
       const renderPage = () => {
           switch (currentPage) {

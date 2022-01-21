@@ -35,3 +35,96 @@ footer {
 }
 
 /* END FOOTER STYLES */
+
+.homepage {
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.homepage div {
+  background-color:cornflowerblue;
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 15px;
+}
+
+.homepage div:hover {
+  background-color: white;
+  border: 75px white solid;
+  height: 75px;
+  transition-duration: 0.4s;
+}
+
+/* PROJECTS PAGE STYLES */
+.projects {
+  background-color:cornflowerblue;
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 15px;
+}
+
+.projects:hover {
+  background-color: rgba(100, 149, 237, 0.5);
+  border: 5px white solid;
+  transition-duration: 0.5s;
+}
+
+.project-div {
+  border: 1px solid;
+}
+
+/* MODAL STYLES */
+.modalBackdrop {
+	background: rgba(0, 0, 0, .65);
+  height: 700px;
+  width: auto;
+	bottom: 0;
+	left: 0;
+	overflow: auto;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 1;
+  text-align: center;
+}
+
+.modalContainer {
+	background: darkgray;
+  border: 2px black solid;
+	border-radius: 15px;
+  box-shadow: 0 0 50px 20px white;
+	max-width: 100%;
+	margin: 50px auto;
+	padding: 15px;
+	width: 90vw;
+  height: auto;
+}
+
+.modalTitle {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+
+.modalContainer img {
+  height: auto;
+  border: 1px black solid;
+  border-radius: 15px;
+  width: 90%;
+}
+
+.modalContainer a {
+  text-decoration: none;
+  border: 2px rgba(255 255 255 0.1) solid;
+  color: white;
+}
+
+.modalContainer button:hover {
+  border: 2px white solid;
+  background-color: darkblue;
+  transition-duration: 1s;
+}
+
+/* END MODAL STYLES */
