@@ -12,6 +12,13 @@ code {
     monospace;
 }
 
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /* HEADER STYLES */
 .header div {
   height: 150px;
@@ -54,6 +61,19 @@ footer {
   border: 75px white solid;
   height: 75px;
   transition-duration: 0.4s;
+}
+
+/* ABOUT ME PAGE */
+.about-me {
+  padding: 15px;
+  margin: 15px;
+}
+
+.about-me img {
+  height: 300px;
+  border-radius: 50%;
+  width: auto;
+  margin: 15px;
 }
 
 /* PROJECTS PAGE STYLES */
