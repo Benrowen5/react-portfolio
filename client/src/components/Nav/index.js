@@ -8,13 +8,24 @@ function Nav (props) {
         <header className="header">
             <div className="title">
                 <a href='/'>
-                <img src={image} />
+                    <img className="me-logo" src={image} />
                 </a>
-                <h2>
-                    <a href='/'>
+                {/* <a href='/'>
+                    <h2>
                         My Portfolio
+                    </h2>
+                </a> */}
+                <container className='socials'> 
+                    <a href='https://www.linkedin.com/in/benjamin-rowen/' target='blank'>
+                        <img src="https://img.icons8.com/color/48/000000/linkedin.png"/>
                     </a>
-                </h2>
+                    <a href='https://github.com/Benrowen5' target='blank'>
+                        <img src="https://img.icons8.com/material-sharp/48/000000/github.png"/>
+                    </a>
+                    <a href='https://www.instagram.com/benjamrow/' target='blank'>
+                        <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/>
+                    </a>
+                </container>
                 
                 
             </div>

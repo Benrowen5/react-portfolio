@@ -6,7 +6,7 @@ function Modal ({onClose, currentProject}) {
         <div className='modalBackdrop'>
             <div className='modalContainer'>
                 <h3 className='modal-title'>{name}</h3>
-                <img alt='current project' src={require(`../../assets/images/${name}.jpg`)} />
+                <img alt='current project' src={require(`../../assets/images/${name}.png`)} />
                 <p>{description}</p>
                 <button onClick={onClose} type='button' className="btn btn-secondary">
                     Go Back
