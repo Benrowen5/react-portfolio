@@ -12,7 +12,7 @@ function Nav (props) {
                 </a>
                 <h2>
                     <a href='/'>
-                        Ben Rowen's Online Portfolio
+                        My Portfolio
                     </a>
                 </h2>
                 

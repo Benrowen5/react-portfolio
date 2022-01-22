@@ -9,9 +9,9 @@ function About () {
                 <img src={image}></img>
             </div>
             <div>
-                <h2>I am Ben</h2>
+                <h2>About Me</h2>
                 <p>As a mechanical engineer by degree, after working professionally for 7 years I decided that I wanted (and needed) to make a change in my career. Working as an engineer in the consumer products industry was very enjoyable, but not what I was passionate about. I decided to pursure something I found myself to be more interested in.</p>
-                <p>I signed up to be a student in Case Western Reserve University's Full Stack Web Developer Coding Bootcamp, in order to learn the in demand skills used by engineers, developers, and entrepeneurs alike. This started the next chapter of my professional career.</p>
+                <p>I made the decision to sign up for Case Western Reserve University's Full Stack Web Developer Coding Bootcamp. Through this program I would learn the in demand skills used by software engineers, web developers, and entrepeneurs alike, and begin my journey to becoming a professional developer.</p>
             </div>
         </section>
     );   

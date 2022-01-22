@@ -20,17 +20,51 @@ code {
 }
 
 /* HEADER STYLES */
-.header div {
+/* .header div {
   background-image: url(../src/assets/images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 150px;
   display: flex;
   padding: 20px;
+} */
+
+.header div {
+  height: 150px;
+  display: flex;
+  padding: 20px;
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8);
+  background-size: 1800% 1800%;
+
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+  @-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+  }
+  @-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+  }
+  @-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+  }
+  @keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
 }
 
 .nav {
   background-color: black;
+  border-top: 3px solid black;
 }
 
 .title {
@@ -42,23 +76,30 @@ code {
   display: block;
   height: 140px;
   width: auto;
-  border: 1px solid rgba(255,255,255,0)
+  border: 1px solid rgba(255,255,255,0);
+  transition: border 0.5s ease-in-out;
 }
 
 .title img:hover {
-  transition-duration: 0.5s;
+  /* transition-duration: 0.5s; */
   border: 10px rgba(255,255,255,0) solid;
 }
 
 .title h2 {
   background-color: black;
-  border: 5px solid rgba(255,255,255,0);
+  border: 3px solid white;
   border-radius: 5px;
   align-self: flex-end;
+  padding: 5px;
 }
 
 .title h2 a {
   text-decoration: none;
+  transition: color 1s ease-in-out;
+}
+
+.title h2 a:hover {
+  color: red;
 }
 
 /* END HEADER STYLES */
@@ -68,6 +109,7 @@ footer {
   background-color: grey;
   height: 50px;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -235,8 +277,13 @@ footer {
     padding: 20px;
   }
 
+  .title h2 {
+    font-size: 20px;
+  }
+
   nav ul li {
    flex: 1 100%;
+   text-align:center;
   }
 
   .about-me {
