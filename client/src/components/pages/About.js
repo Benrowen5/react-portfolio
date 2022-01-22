@@ -5,7 +5,6 @@ function About () {
     
     return (
         <section className="d-flex about-me">
-            About Me
             <div className='about-img'>
                 <img src={image}></img>
             </div>

@@ -21,14 +21,44 @@ code {
 
 /* HEADER STYLES */
 .header div {
+  background-image: url(../src/assets/images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 150px;
   display: flex;
-  align-items: center;
-  padding-left: 20px;
+  padding: 20px;
 }
 
 .nav {
   background-color: black;
+}
+
+.title {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title img {
+  display: block;
+  height: 140px;
+  width: auto;
+  border: 1px solid rgba(255,255,255,0)
+}
+
+.title img:hover {
+  transition-duration: 0.5s;
+  border: 10px rgba(255,255,255,0) solid;
+}
+
+.title h2 {
+  background-color: black;
+  border: 5px solid rgba(255,255,255,0);
+  border-radius: 5px;
+  align-self: flex-end;
+}
+
+.title h2 a {
+  text-decoration: none;
 }
 
 /* END HEADER STYLES */
@@ -148,3 +178,80 @@ footer {
 }
 
 /* END MODAL STYLES */
+
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */ 
+@media screen and (max-width: 900px) {
+  .header div {
+    height: 150px;
+    display: flex;
+    padding: 20px;
+  }
+  
+  .nav {
+    background-color: black;
+  }
+  
+  .title {
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title img {
+    display: block;
+    height: 140px;
+    width: auto;
+    border: 1px solid rgba(255,255,255,0)
+  }
+  
+  .title img:hover {
+    transition-duration: 0.5s;
+    border: 10px rgba(255,255,255,0) solid;
+  }
+  
+  .title h2 {
+    background-color: black;
+    border: 5px solid rgba(255,255,255,0);
+    border-radius: 5px;
+    align-self: flex-end;
+  }
+  
+  .title h2 a {
+    text-decoration: none;
+  }
+  
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER  */
+@media screen and (max-width: 768px) {
+  
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  .header div {
+    display: flex;
+    padding: 20px;
+  }
+
+  nav ul li {
+   flex: 1 100%;
+  }
+
+  .about-me {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .about-me div {
+    flex: 1 100%;
+  }
+
+  .about-me img {
+    height: 200px;
+    border-radius: 50%;
+    width: auto;
+    margin: 15px;
+  }
+}

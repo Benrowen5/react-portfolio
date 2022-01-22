@@ -1,15 +1,22 @@
 import React, {useEffect} from 'react';
+import image from '../../assets/images/logoHead3.png';
+// import background from '../assets/images/background.png';
 
 function Nav (props) {
     const pages = ['Home', 'About', 'Projects', 'Contact', 'Resume'];
     return (
         <header className="header">
-            <div>
+            <div className="title">
+                <a href='/'>
+                <img src={image} />
+                </a>
                 <h2>
                     <a href='/'>
                         Ben Rowen's Online Portfolio
                     </a>
                 </h2>
+                
+                
             </div>
             <nav>
                 <ul className="nav nav-tabs justify-content-center">
