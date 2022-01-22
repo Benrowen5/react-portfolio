@@ -145,7 +145,10 @@ footer {
   height: 300px;
   border-radius: 50%;
   width: auto;
-  margin: 15px;
+}
+
+.about-me div {
+  padding: 25px;
 }
 
 /* PROJECTS PAGE STYLES */
@@ -293,6 +296,7 @@ footer {
 
   .about-me div {
     flex: 1 100%;
+    padding: 5px;
   }
 
   .about-me img {
