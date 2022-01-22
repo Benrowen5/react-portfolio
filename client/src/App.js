@@ -27,7 +27,7 @@ function App() {
       };
   
   return (
-    <div>
+    <div className="wrapper">
       <Nav
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}

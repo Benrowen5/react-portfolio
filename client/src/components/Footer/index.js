@@ -4,7 +4,7 @@ function Footer () {
     return (
         <footer>
             &copy;2022 BenRowen
-            <container className='socials-foot'> 
+            <div className='socials-foot'> 
                     <a href='https://www.linkedin.com/in/benjamin-rowen/' target='blank'>
                         <img src="https://img.icons8.com/color/48/000000/linkedin.png"/>
                     </a>
@@ -14,7 +14,7 @@ function Footer () {
                     <a href='https://www.instagram.com/benjamrow/' target='blank'>
                         <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/>
                     </a>
-                </container>
+                </div>
         </footer>
     )
 }

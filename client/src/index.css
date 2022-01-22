@@ -1,3 +1,6 @@
+html, body {
+  min-height: 100%;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,13 +13,6 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.flex-wrapper {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 /* HEADER STYLES */
@@ -89,36 +85,34 @@ code {
   background-color: black;
   border: 3px solid white;
   border-radius: 5px;
-  align-self: flex-end;
   padding: 5px;
 }
 
-.title h2 a {
+.title a {
   text-decoration: none;
   transition: color 1s ease-in-out;
 }
 
-.title h2 a:hover {
+.title a:hover {
   color: red;
 }
 
-.socials {
+/* .socials {
   border: 3px solid white;
   border-radius: 5px;
   align-self: flex-end;
-}
+} */
 
 /* END HEADER STYLES */
 
 /* FOOTER STYLES */
 footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: grey;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; 
+  top: 100vh;
+  width: 100%;
+  background-color: grey;
   padding: 0 20px 0 20px;
 }
 
@@ -185,6 +179,7 @@ footer {
   border: 1px solid;
 }
 
+
 /* MODAL STYLES */
 .modalBackdrop {
 	background: rgba(0, 0, 0, .65);
@@ -244,6 +239,22 @@ footer {
 /* END MODAL STYLES */
 
 
+/* CONTACT PAGE STYLES */
+.contact-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-form {
+  display: block;
+  text-align: left;
+  padding: 0 20% 0 20%;
+}
+
+.error-text {
+  color: red;
+}
+
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */ 
 @media screen and (max-width: 900px) {
@@ -279,7 +290,6 @@ footer {
   }
 
   footer {
-    position: relative;
     padding: 0;
   }
 }
@@ -320,5 +330,11 @@ footer {
     border-radius: 50%;
     width: auto;
     margin: 15px;
+  }
+
+  .contact-form {
+    display: block;
+    text-align: left;
+    padding: 0;
   }
 }

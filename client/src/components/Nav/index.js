@@ -10,12 +10,12 @@ function Nav (props) {
                 <a href='/'>
                     <img className="me-logo" src={image} />
                 </a>
-                {/* <a href='/'>
+                <a href='/'>
                     <h2>
-                        My Portfolio
+                        Benjamin Rowen
                     </h2>
-                </a> */}
-                <container className='socials'> 
+                </a>
+                {/* <div className='socials'> 
                     <a href='https://www.linkedin.com/in/benjamin-rowen/' target='blank'>
                         <img src="https://img.icons8.com/color/48/000000/linkedin.png"/>
                     </a>
@@ -25,7 +25,7 @@ function Nav (props) {
                     <a href='https://www.instagram.com/benjamrow/' target='blank'>
                         <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/>
                     </a>
-                </container>
+                </div> */}
                 
                 
             </div>
