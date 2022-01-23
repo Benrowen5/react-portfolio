@@ -224,6 +224,10 @@ footer {
   max-height: 75%
 }
 
+.modalContainer button {
+  margin: 0 5px 0 5px;
+}
+
 .modalContainer a {
   text-decoration: none;
   border: 2px rgba(255 255 255 0.1) solid;
