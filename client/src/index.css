@@ -259,12 +259,20 @@ footer {
   color: red;
 }
 
+/* END CONTACT PAGE STYLES */
 
 /* RESUME PAGE STYLES */
 .resume-section {
-  padding: 20px;
+  padding: 20px 250px 20px 250px;
   text-align: center;
 }
+
+.skills {
+  border-bottom: 2px solid black;
+  margin-bottom: 50px;
+}
+
+/* END RESUME PAGE STYLES */
 
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */ 
@@ -289,7 +297,10 @@ footer {
   .title h2 a {
     text-decoration: none;
   }
-  
+
+  .resume-section {
+    padding: 20px 100px 20px 100px;
+  }
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER  */
@@ -302,6 +313,10 @@ footer {
 
   footer {
     padding: 0;
+  }
+
+  .resume-section {
+    padding: 20px 100px 20px 100px;
   }
 }
 
@@ -347,5 +362,9 @@ footer {
     display: block;
     text-align: left;
     padding: 0;
+  }
+  
+  .resume-section {
+    padding: 20px;
   }
 }
