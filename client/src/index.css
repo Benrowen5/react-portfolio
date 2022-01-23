@@ -118,26 +118,6 @@ footer {
 
 /* END FOOTER STYLES */
 
-.homepage {
-  justify-content: space-evenly;
-  padding: 10px;
-}
-
-.homepage div {
-  background-color:cornflowerblue;
-  border: 1px black solid;
-  border-radius: 5px;
-  padding: 5px;
-  margin: 15px;
-}
-
-.homepage div:hover {
-  background-color: white;
-  border: 75px white solid;
-  height: 75px;
-  transition-duration: 0.4s;
-}
-
 /* ABOUT ME PAGE */
 .about-me {
   padding: 15px;
@@ -163,7 +143,7 @@ footer {
 .project {
   flex: 2 30%;
   background-color:cornflowerblue;
-  border: 1px black solid;
+  border: 3px black solid;
   border-radius: 5px;
   padding: 5px;
   margin: 15px;
@@ -171,7 +151,8 @@ footer {
 
 .project:hover {
   background-color: rgba(100, 149, 237, 0.5);
-  border: 5px white solid;
+  color: rgba(0,0,0,0.5);
+  border: 3px white solid;
   transition-duration: 0.5s;
 }
 
