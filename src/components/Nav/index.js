@@ -7,10 +7,10 @@ function Nav (props) {
     return (
         <header className="header">
             <div className="title">
-                <a href='/'>
+                <a href='https://benrowen5.github.io/react-portfolio'>
                     <img className="me-logo" src={image} />
                 </a>
-                <a href='/'>
+                <a href='https://benrowen5.github.io/react-portfolio'>
                     <h2>
                         Benjamin Rowen
                     </h2>
