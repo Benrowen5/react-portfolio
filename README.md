@@ -3,9 +3,10 @@
   ![License](https://img.shields.io/badge/license-MIT-blue)
   
   ## Description
-  This portfolio was created using React to showcase recent work, a contact form, and information about me. 
+  This portfolio was created using React to showcase my recent work, a link to my resume, a contact form, and information about me. 
 
-  * Screenshot
+  ![ReactPortfolioSS](https://user-images.githubusercontent.com/79202800/150690514-3c604b77-bb76-42d3-bc92-016ac4e54c9a.PNG)
+
   
   ***************************************************************
   ## Table of Contents
