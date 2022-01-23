@@ -260,6 +260,13 @@ footer {
 }
 
 
+/* RESUME PAGE STYLES */
+.resume-section {
+  padding: 20px;
+  text-align: center;
+}
+
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */ 
 @media screen and (max-width: 900px) {
   .header div {
