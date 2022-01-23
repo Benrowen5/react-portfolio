@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.725cd15f.css",
-    "main.js": "/react-portfolio/static/js/main.da50f642.js",
+    "main.js": "/react-portfolio/static/js/main.9e84ab0a.js",
     "static/js/787.db9b214f.chunk.js": "/react-portfolio/static/js/787.db9b214f.chunk.js",
     "static/media/What Should I Watch.png": "/react-portfolio/static/media/What Should I Watch.314bcd47a3d7a0880f4a.png",
     "static/media/Ok Fido.png": "/react-portfolio/static/media/Ok Fido.b599286eb4b641abb396.png",
@@ -14,11 +14,11 @@
     "static/media/Password Generator.png": "/react-portfolio/static/media/Password Generator.53522a7c27938b437860.png",
     "index.html": "/react-portfolio/index.html",
     "main.725cd15f.css.map": "/react-portfolio/static/css/main.725cd15f.css.map",
-    "main.da50f642.js.map": "/react-portfolio/static/js/main.da50f642.js.map",
+    "main.9e84ab0a.js.map": "/react-portfolio/static/js/main.9e84ab0a.js.map",
     "787.db9b214f.chunk.js.map": "/react-portfolio/static/js/787.db9b214f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.725cd15f.css",
-    "static/js/main.da50f642.js"
+    "static/js/main.9e84ab0a.js"
   ]
 }
