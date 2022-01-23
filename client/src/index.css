@@ -1,6 +1,3 @@
-html, body {
-  min-height: 100%;
-}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,6 +10,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* HEADER STYLES */
@@ -110,13 +113,12 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center; 
-  top: 100vh;
   width: 100%;
   background-color: grey;
   padding: 0 20px 0 20px;
+  min-height: 50px;
+  margin-top:auto;
 }
-
-/* END FOOTER STYLES */
 
 /* ABOUT ME PAGE */
 .about-me {
@@ -296,6 +298,16 @@ footer {
     padding: 0;
   }
 
+  .about-me {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .about-me div {
+    flex: 1 100%;
+    padding: 5px;
+  }
+
   .resume-section {
     padding: 20px 100px 20px 100px;
   }
@@ -320,16 +332,6 @@ footer {
   nav ul li {
    flex: 1 100%;
    text-align:center;
-  }
-
-  .about-me {
-    flex-wrap: wrap;
-    text-align: center;
-  }
-
-  .about-me div {
-    flex: 1 100%;
-    padding: 5px;
   }
 
   .about-me img {
