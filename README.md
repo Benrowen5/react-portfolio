@@ -4,6 +4,8 @@
   
   ## Description
   This portfolio was created using React to showcase my recent work, a link to my resume, a contact form, and information about me. 
+  
+  Deployed application: https://benrowen5.github.io/react-portfolio/
 
   ![ReactPortfolioSS](https://user-images.githubusercontent.com/79202800/150690514-3c604b77-bb76-42d3-bc92-016ac4e54c9a.PNG)
 
