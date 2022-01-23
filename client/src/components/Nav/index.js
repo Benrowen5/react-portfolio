@@ -3,7 +3,7 @@ import image from '../../assets/images/logoHead3.png';
 // import background from '../assets/images/background.png';
 
 function Nav (props) {
-    const pages = ['Home', 'About', 'Projects', 'Contact', 'Resume'];
+    const pages = ['Projects', 'About', 'Contact', 'Resume'];
     return (
         <header className="header">
             <div className="title">
