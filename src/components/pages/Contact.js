@@ -38,27 +38,14 @@ function Contact () {
 
     return(
         <section className="contact-section">
-            <h1>Contact Me</h1>
-            <form id='contact-form' className="contact-form" onSubmit={handleSubmit}>
-                <div className="form-group">
-                    <label htmlFor='name'>Name:</label>
-                    <input type='text' className="form-control" name='name' defaultValue={name} onBlur={handleChange}></input>
-                </div>
-                <div className="form-group">
-                    <label htmlFor='email'>Email Address:</label>
-                    <input type='email' className="form-control" name='email' defaultValue={email} onBlur={handleChange}></input>
-                </div>
-                <div className="form-group">
-                    <label htmlFor='message'>Message:</label>
-                    <textarea name='message' className="form-control" rows='5' placeholder='What up?' defaultValue={message} onBlur={handleChange}></textarea>
-                </div>
-                {errorMessage && (
-                    <div>
-                        <p className='error-text'>{errorMessage}</p>
-                    </div>
-                )}                
-                <button type='submit' className="btn btn-primary" data-testid='button'>Submit</button>
-            </form>
+            <h3>Contact Me</h3>
+            <div>
+                <p className="contact-intro">For any inquiries, please reach out to me at the contact methods below, or say hello on social media via the links at the bottom of this page.</p>
+                <h4>Email: </h4>
+                <p>benrowentv@gmail.com</p>
+                <h4>Phone: </h4>
+                <p>440.223.9879</p>
+            </div>
         </section>
     );
 }

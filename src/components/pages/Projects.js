@@ -4,10 +4,10 @@ import Modal from '../Modal';
 const Projects = ({}) => {
     const projects = [
         {
-            name: 'What Should I Watch',
-            description: 'What should I Watch is a random movie generator application. The app takes in user input to provide 4 random movie suggestions based on user preference regarding genre, movie score, and rating. This application was created using Javascript, HTML, CSS, Bootstrap, and utilizes third party API calls to generate movie results.',
-            link: 'https://benrowen5.github.io/What-Should-I-Watch/',
-            gitHub: 'https://github.com/Benrowen5/What-Should-I-Watch'
+            name: 'Vapor Games',
+            description: "Tired of outdated and user-unfriendly styling that you've come to accept? Vapor seeks to bring modern functionality and accessibility to an all-in-one gaming service. Our application allows users to browse video games of all types and genres, view detailed information about each of them, start conversations with fellow app users about the games, and favorite games so that each user can have quick reference and access to their favorites from their dashboard. We even have some sweet swag available for purchase in our store - how sick is that? Built using MERN stack, deployment through Heroku. Coming soon!",
+            link: 'https://www.google.com',
+            gitHub: 'https://github.com/Benrowen5/CoffeeWorkoutVideoGame'
         },
         {
             name: 'Ok Fido',
@@ -16,10 +16,10 @@ const Projects = ({}) => {
             gitHub: 'https://github.com/Benrowen5/ok-fido'
         },
         {
-            name: 'Coffee Workout Video Game',
-            description: 'Coming soon',
-            link: 'https://www.google.com',
-            gitHub: 'https://github.com/Benrowen5/CoffeeWorkoutVideoGame'
+            name: 'What Should I Watch',
+            description: 'What should I Watch is a random movie generator application. The app takes in user input to provide 4 random movie suggestions based on user preference regarding genre, movie score, and rating. This application was created using Javascript, HTML, CSS, Bootstrap, and utilizes third party API calls to generate movie results.',
+            link: 'https://benrowen5.github.io/What-Should-I-Watch/',
+            gitHub: 'https://github.com/Benrowen5/What-Should-I-Watch'
         },
         {
             name: 'Budget Tracker',
@@ -28,17 +28,17 @@ const Projects = ({}) => {
             gitHub: 'https://github.com/Benrowen5/Budget-tracker-PWA'
         },
         {
-            name: 'Run Buddy',
-            description: 'Find running companions near you!',
-            link: 'https://benrowen5.github.io/run-buddy/',
-            gitHub: 'https://github.com/Benrowen5/run-buddy'
-        },
-        {
             name: 'Password Generator',
             description: 'Create a randomized password that fits your criteria. This application runs in the browser and is responsive to various screen sizes. The functionality of the application is dependant on input provided by the user. All user input is validated in order to prevent any errors from occurring.',
             link: 'https://benrowen5.github.io/Random-password-generator/',
             gitHub: 'https://github.com/Benrowen5/Random-password-generator'
-        }
+        },
+        {
+            name: 'Run Buddy',
+            description: 'Find running companions near you! This web application was built using HTML and CSS.',
+            link: 'https://benrowen5.github.io/run-buddy/',
+            gitHub: 'https://github.com/Benrowen5/run-buddy'
+        },
     ];
     // const currentProjects = projects.
     const [isModalOpen, setIsModalOpen] = useState(false);
