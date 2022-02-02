@@ -5,7 +5,7 @@ const Projects = ({}) => {
     const projects = [
         {
             name: 'Vapor Games',
-            description: "Tired of outdated and user-unfriendly styling that you've come to accept? Vapor seeks to bring modern functionality and accessibility to an all-in-one gaming service. Our application allows users to browse video games of all types and genres, view detailed information about each of them, start conversations with fellow app users about the games, and favorite games so that each user can have quick reference and access to their favorites from their dashboard. We even have some sweet swag available for purchase in our store - how sick is that? Built using MERN stack, deployment through Heroku. Coming soon!",
+            description: "Tired of outdated and user-unfriendly styling that you've come to accept? Vapor seeks to bring modern functionality and accessibility to an all-in-one gaming service. Our application allows users to browse video games of all types and genres, view detailed information about each of them, start conversations with fellow app users about the games, and favorite games so that each user can have quick reference and access to their favorites from their dashboard. We even have some sweet swag available for purchase in our store - how sick is that? Built using MERN stack, deployment through Heroku.",
             link: 'https://vapor-games-2022.herokuapp.com',
             gitHub: 'https://github.com/Benrowen5/CoffeeWorkoutVideoGame'
         },
