@@ -199,7 +199,6 @@ footer {
 }
 
 .modalContainer img {
-  /* height: auto; */
   border: 1px black solid;
   border-radius: 15px;
   max-width: 75%;
@@ -287,6 +286,9 @@ footer {
   .contact-intro {
     padding: 0;
   }
+  .modalContainer img {
+    max-width: 100%;
+  }
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER  */
@@ -352,5 +354,10 @@ footer {
   
   .resume-section, .contact-section {
     padding: 20px;
+  }
+
+  .modalContainer button {
+    padding: 5px;
+    margin: 2px;
   }
 }
