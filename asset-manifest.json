@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.3a81618d.css",
-    "main.js": "/react-portfolio/static/js/main.6a76b3f1.js",
+    "main.css": "/react-portfolio/static/css/main.2a420a3d.css",
+    "main.js": "/react-portfolio/static/js/main.888711c3.js",
     "static/js/787.db9b214f.chunk.js": "/react-portfolio/static/js/787.db9b214f.chunk.js",
     "static/media/What Should I Watch.png": "/react-portfolio/static/media/What Should I Watch.314bcd47a3d7a0880f4a.png",
     "static/media/transparentMaze.png": "/react-portfolio/static/media/transparentMaze.075e4d32d0e953dd56bc.png",
-    "static/media/Vapor Games.png": "/react-portfolio/static/media/Vapor Games.7c9fc9da6c41d22c3325.png",
+    "static/media/Vapor Games.png": "/react-portfolio/static/media/Vapor Games.e70010d35e973e512ca9.png",
     "static/media/TandB.png": "/react-portfolio/static/media/TandB.1d551ffd5da25d4db57d.png",
     "static/media/Run Buddy.png": "/react-portfolio/static/media/Run Buddy.753299556d6976e61848.png",
     "static/media/logoHead3.png": "/react-portfolio/static/media/logoHead3.538006b95c21a5e3584f.png",
@@ -14,12 +14,12 @@
     "static/media/Password Generator.png": "/react-portfolio/static/media/Password Generator.241801f263bb4ce95f63.png",
     "static/media/background.png": "/react-portfolio/static/media/background.f6c536cb8f4f580f75d8.png",
     "index.html": "/react-portfolio/index.html",
-    "main.3a81618d.css.map": "/react-portfolio/static/css/main.3a81618d.css.map",
-    "main.6a76b3f1.js.map": "/react-portfolio/static/js/main.6a76b3f1.js.map",
+    "main.2a420a3d.css.map": "/react-portfolio/static/css/main.2a420a3d.css.map",
+    "main.888711c3.js.map": "/react-portfolio/static/js/main.888711c3.js.map",
     "787.db9b214f.chunk.js.map": "/react-portfolio/static/js/787.db9b214f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a81618d.css",
-    "static/js/main.6a76b3f1.js"
+    "static/css/main.2a420a3d.css",
+    "static/js/main.888711c3.js"
   ]
 }
