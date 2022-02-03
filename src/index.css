@@ -32,6 +32,9 @@ code {
   height: 150px;
   display: flex;
   padding: 20px;
+}
+
+.colorChanger {
   background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8);
   background-size: 1800% 1800%;
 
@@ -213,6 +216,10 @@ footer {
   text-decoration: none;
   border: 2px rgba(255 255 255 0.1) solid;
   color: white;
+}
+
+.modalContainer p {
+  margin: 1rem 0;
 }
 
 .modalContainer button:hover {

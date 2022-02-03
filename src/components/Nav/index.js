@@ -5,7 +5,7 @@ import image from '../../assets/images/logoHead3.png';
 function Nav (props) {
     const pages = ['Projects', 'About', 'Contact', 'Resume'];
     return (
-        <header className="header">
+        <header className="header colorChanger">
             <div className="title">
                 <a href='https://benrowen5.github.io/react-portfolio'>
                     <img className="me-logo" src={image} />
