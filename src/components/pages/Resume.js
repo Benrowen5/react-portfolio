@@ -17,7 +17,7 @@ function Resume () {
             </div>
             <div>
                 <h4>Click below to view/download my resume.</h4>
-                    <a href= 'https://drive.google.com/file/d/1BeIzLbgb2nUAhDtq0H4hFI-Y0Yb7Guiq/view?usp=sharing' target="_blank">
+                    <a href= 'https://drive.google.com/file/d/1QkjHlbJMsnWSllVM4m90YBcvlQ7fLHSm/view?usp=sharing' target="_blank">
                         <img src="https://img.icons8.com/office/80/000000/pdf.png" alt='pdf resume download'/>                
                     </a>
                     <p>Benjamin Rowen Resume</p>
