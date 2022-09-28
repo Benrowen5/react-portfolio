@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from '../Modal';
 
-const Projects = ({}) => {
+const Projects = () => {
     const projects = [
         {
             name: 'Vapor Games',

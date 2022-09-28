@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import image from '../../assets/images/logoHead3.png';
 // import background from '../assets/images/background.png';
 
@@ -8,7 +8,7 @@ function Nav (props) {
         <header className="header colorChanger">
             <div className="title">
                 <a href='https://benrowen5.github.io/react-portfolio'>
-                    <img className="me-logo" src={image} />
+                    <img className="me-logo" src={image} alt="" />
                 </a>
                 <a href='https://benrowen5.github.io/react-portfolio'>
                     <h2>
