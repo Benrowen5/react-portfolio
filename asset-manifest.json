@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.2a420a3d.css",
-    "main.js": "/react-portfolio/static/js/main.4d9d9a51.js",
+    "main.js": "/react-portfolio/static/js/main.df865abc.js",
     "static/js/787.db9b214f.chunk.js": "/react-portfolio/static/js/787.db9b214f.chunk.js",
     "static/media/What Should I Watch.png": "/react-portfolio/static/media/What Should I Watch.314bcd47a3d7a0880f4a.png",
     "static/media/transparentMaze.png": "/react-portfolio/static/media/transparentMaze.075e4d32d0e953dd56bc.png",
@@ -15,11 +15,11 @@
     "static/media/background.png": "/react-portfolio/static/media/background.f6c536cb8f4f580f75d8.png",
     "index.html": "/react-portfolio/index.html",
     "main.2a420a3d.css.map": "/react-portfolio/static/css/main.2a420a3d.css.map",
-    "main.4d9d9a51.js.map": "/react-portfolio/static/js/main.4d9d9a51.js.map",
+    "main.df865abc.js.map": "/react-portfolio/static/js/main.df865abc.js.map",
     "787.db9b214f.chunk.js.map": "/react-portfolio/static/js/787.db9b214f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a420a3d.css",
-    "static/js/main.4d9d9a51.js"
+    "static/js/main.df865abc.js"
   ]
 }
